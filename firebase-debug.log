@@ -1,0 +1,172 @@
+[debug] [2023-06-17T11:52:29.818Z] ----------------------------------------------------------------------
+[debug] [2023-06-17T11:52:29.821Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\صلاح\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2023-06-17T11:52:29.822Z] CLI Version:   12.4.0
+[debug] [2023-06-17T11:52:29.822Z] Platform:      win32
+[debug] [2023-06-17T11:52:29.823Z] Node Version:  v18.16.0
+[debug] [2023-06-17T11:52:29.823Z] Time:          Sat Jun 17 2023 12:52:29 GMT+0100 (Central European Standard Time)
+[debug] [2023-06-17T11:52:29.823Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-17T11:52:29.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-17T11:52:29.985Z] > authorizing via signed-in user (jawadkhenfer@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-06-17T11:52:30.004Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-17T11:52:30.004Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project my-shop-7e352. This may result in unexpected behavior. 
+[debug] [2023-06-17T11:52:30.035Z] [hub] writing locator at C:\Users\2289~1\AppData\Local\Temp\hub-my-shop-7e352.json
+[debug] [2023-06-17T11:52:30.075Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-17T11:52:30.075Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-17T11:52:30.076Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-06-17T11:52:30.087Z] defaultcredentials: writing to file C:\Users\صلاح\AppData\Roaming\firebase\jawadkhenfer_gmail_com_application_default_credentials.json
+[debug] [2023-06-17T11:52:30.139Z] Setting GAC to C:\Users\صلاح\AppData\Roaming\firebase\jawadkhenfer_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\صلاح\\AppData\\Roaming\\firebase\\jawadkhenfer_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-17T11:52:30.145Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-shop-7e352/adminSdkConfig [none]
+[debug] [2023-06-17T11:52:30.627Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-shop-7e352/adminSdkConfig 200
+[debug] [2023-06-17T11:52:30.628Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-shop-7e352/adminSdkConfig {"projectId":"my-shop-7e352","storageBucket":"my-shop-7e352.appspot.com"}
+[debug] [2023-06-17T11:52:30.679Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-17T11:52:30.680Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-17T11:52:30.680Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\صلاح\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\صلاح\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-17T11:52:30.870Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-06-17T11:52:30.870Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "E:\my-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"E:\\my-app\\functions\" for Cloud Functions..."}}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: could not deploy functions because the "functions" directory was not found. Please create it or specify a different source directory in firebase.json {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: could not deploy functions because the \u001b[1m\"functions\"\u001b[22m directory was not found. Please create it or specify a different source directory in firebase.json"}}
+[info] i  functions: Watching "E:\my-app\salah" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"E:\\my-app\\salah\" for Cloud Functions..."}}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: could not deploy functions because the "salah" directory was not found. Please create it or specify a different source directory in firebase.json {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: could not deploy functions because the \u001b[1m\"salah\"\u001b[22m directory was not found. Please create it or specify a different source directory in firebase.json"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-06-17T12:02:10.711Z] ----------------------------------------------------------------------
+[debug] [2023-06-17T12:02:10.714Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\صلاح\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-17T12:02:10.714Z] CLI Version:   12.4.0
+[debug] [2023-06-17T12:02:10.715Z] Platform:      win32
+[debug] [2023-06-17T12:02:10.715Z] Node Version:  v18.16.0
+[debug] [2023-06-17T12:02:10.716Z] Time:          Sat Jun 17 2023 13:02:10 GMT+0100 (Central European Standard Time)
+[debug] [2023-06-17T12:02:10.716Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-17T12:02:10.809Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-17T12:02:10.810Z] > authorizing via signed-in user (jawadkhenfer@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-17T12:02:19.688Z] Using project from CLI flag: my-shop-7e352
+[debug] [2023-06-17T12:02:19.690Z] > refreshing access token with scopes: []
+[debug] [2023-06-17T12:02:19.692Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-17T12:02:19.693Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-17T12:02:20.119Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-17T12:02:20.120Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-17T12:02:20.133Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-shop-7e352 [none]
+[debug] [2023-06-17T12:02:20.729Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-shop-7e352 200
+[debug] [2023-06-17T12:02:20.730Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-shop-7e352 {"projectId":"my-shop-7e352","projectNumber":"696102774186","displayName":"my-shop","name":"projects/my-shop-7e352","resources":{"hostingSite":"my-shop-7e352"},"state":"ACTIVE","etag":"1_2a09e72e-bf7b-47be-ad1d-33a7ea3ad295"}
+[info] i  Using project my-shop-7e352 (my-shop) 
+[info] 
+=== Functions Setup
+[debug] [2023-06-17T12:02:20.741Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-17T12:02:20.741Z] > authorizing via signed-in user (jawadkhenfer@gmail.com)
+[debug] [2023-06-17T12:02:20.742Z] [iam] checking project my-shop-7e352 for permissions ["firebase.projects.get"]
+[debug] [2023-06-17T12:02:20.742Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-shop-7e352:testIamPermissions [none]
+[debug] [2023-06-17T12:02:20.743Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-shop-7e352:testIamPermissions x-goog-quota-user=projects/my-shop-7e352
+[debug] [2023-06-17T12:02:20.743Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-shop-7e352:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-06-17T12:02:21.247Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-shop-7e352:testIamPermissions 200
+[debug] [2023-06-17T12:02:21.247Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-shop-7e352:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-06-17T12:02:21.248Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-06-17T12:02:21.249Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/my-shop-7e352
+[debug] [2023-06-17T12:02:21.252Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-06-17T12:02:21.253Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/my-shop-7e352
+[debug] [2023-06-17T12:02:22.417Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/cloudfunctions.googleapis.com 200
+[debug] [2023-06-17T12:02:22.417Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2023-06-17T12:02:22.441Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/runtimeconfig.googleapis.com 200
+[debug] [2023-06-17T12:02:22.441Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/my-shop-7e352/services/runtimeconfig.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default, salah
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[debug] [2023-06-17T12:03:09.731Z] ----------------------------------------------------------------------
+[debug] [2023-06-17T12:03:09.733Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\صلاح\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-06-17T12:03:09.734Z] CLI Version:   12.4.0
+[debug] [2023-06-17T12:03:09.734Z] Platform:      win32
+[debug] [2023-06-17T12:03:09.735Z] Node Version:  v18.16.0
+[debug] [2023-06-17T12:03:09.735Z] Time:          Sat Jun 17 2023 13:03:09 GMT+0100 (Central European Standard Time)
+[debug] [2023-06-17T12:03:09.735Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as jawadkhenfer@gmail.com
+[debug] [2023-06-17T14:59:14.266Z] File E:\my-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File E:\\my-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2023-06-17T14:59:15.270Z] Validating nodejs source
+[debug] [2023-06-17T14:59:19.304Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-17T14:59:19.305Z] Building nodejs source
+[debug] [2023-06-17T14:59:19.305Z] Failed to find version of module node: reached end of search path E:\my-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-17T14:59:19.308Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-17T14:59:19.318Z] Found firebase-functions binary at 'E:\my-app\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-17T14:59:19.749Z] Serving at port 8960
+
+[debug] [2023-06-17T14:59:20.069Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-06-17T14:59:20.092Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}

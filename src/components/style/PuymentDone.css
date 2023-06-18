@@ -1,0 +1,25 @@
+.puyment-done {
+  background-color: #f1f1f1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.puyment-done-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.puyment-done-massage {
+  color: #4caf50;
+}
+
+.puyment-done-p {
+  color: #888;
+}
